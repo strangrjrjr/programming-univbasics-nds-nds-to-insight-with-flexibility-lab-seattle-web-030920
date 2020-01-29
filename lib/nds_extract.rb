@@ -99,6 +99,7 @@ def movies_with_directors_set(source)
   source.each do |director|
    result.push(movie_with_director_name(director[:name], director[:movies]))
   end
+  pp result
   return result
 end
 
