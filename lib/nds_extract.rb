@@ -74,6 +74,7 @@ def gross_per_studio(collection)
     result[movie[:studio]] = 0
   end
   collection.each do |movie|
+    puts "FUCK YOU"
     if result.has_key(movie[:studio])
       #puts result[movie[:studio]]
       result[movie[:studio]] += movie[:worldwide_gross]
