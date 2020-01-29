@@ -101,7 +101,7 @@ def movies_with_directors_set(source)
    #pp director[:movies]
    result << movies_with_director_key(director[:name], director[:movies])
   end
-  pp result
+  #pp result
   return result
 end
 
