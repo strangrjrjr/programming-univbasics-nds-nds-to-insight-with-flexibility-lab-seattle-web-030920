@@ -77,6 +77,7 @@ def gross_per_studio(collection)
     puts "FUCK YOU"
     if result.has_key(movie[:studio])
       #puts result[movie[:studio]]
+      puts "fuck you again"
       result[movie[:studio]] += movie[:worldwide_gross]
     end
   end
